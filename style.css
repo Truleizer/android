@@ -1,0 +1,72 @@
+header{
+    background-image: linear-gradient( to top left, rgb(107, 243, 107),rgb(32, 187, 32), rgb(3, 92, 3) );
+    color: rgb(7, 32, 1);
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav > a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;   
+}
+nav{
+    padding-left: 15px;
+    text-align: left;
+}
+nav > a:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+    transition-duration:0.5s;
+
+}
+main > h2{
+    background-image: linear-gradient(to right,green,white);
+    color: white;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main > p {
+font-size: 20px;
+
+}
+p > a{
+    text-decoration: none;
+    color:greenyellow;
+}
+
+#vid{
+    background-color: green;
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+article{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    min-height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px black;
+    padding-bottom: 10px;
+
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+footer a{
+    color: greenyellow;
+}
